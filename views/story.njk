@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<article class="container">
+    <h1>{{ title }}</h1>
+        <p>{{ text | safe }}</p>
+    <nav>
+        <ul>
+            {% for choice in choices %}
+                <li>
+                     <a href="/story/{{ choice.targetId }}">{{ choice.text }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</article>
+{% endblock %}

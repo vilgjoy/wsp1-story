@@ -1,0 +1,52 @@
+{
+  "start": {
+    "title": "Akt 1: Kapseln",
+    "text": "Det sterila vita ljuset i lyxkupén på 'Marke Expressen' flimrar inte. Det är perfekt, konstant och kvävande.\n\nUtanför de förstärkta fönstren är världen en suddig strimma av regn, neon och ändlös stadssprawl – Neo-Cornwall, hjärtat av Marke MegaCorps imperium. Tåget, en magnetdriven projektil i ett vakuumrör, är din gyllene bur.\n\nDu är Isolde. Den sista arvtagaren till Morold DataDynamics. Eller, för att använda Marke Corps legala termer: 'Den primära biologiska tillgången' (Primary Biological Asset).\n\n... (Här lägger vi resten av inledningen vi skrev) ...\n\nTiden rinner ut. Du kan inte möta Marke. Du kan inte leva som hans ägodel. Men du tänker inte dö ensam. Tristan, 'Fixaren' som tog allt ifrån dig, måste hållas ansvarig.\n\nDu reser dig. Ilskan inom dig är en kall, vit eld. Du måste få honom att komma hit. Du måste få honom att 'skåla' med dig för denna mörka seger. Du aktiverar internkommunikatorn. Hur vill du inleda din hämnd?",
+    "choices": [
+      {
+        "text": "\"Tristan. Jag vill erbjuda en vapenvila.\"",
+        "targetId": "1-vapenvila"
+      },
+      {
+        "text": "\"Tristan. Kom hit. Omedelbart.\"",
+        "targetId": "1-konfrontation"
+      }
+    ]
+  },
+  "1-vapenvila": {
+    "title": "Mötet: List",
+    "text": "Du väljer att spela undergiven. Ett ögonblick senare glider dörren till din kupé upp. Tristan kliver in. Hans hållning är neutral, professionell, men hans ögon analyserar varje skugga i rummet. 'Ni ville något, Ms. Morold?'\n\nDu håller fram datakristallen. 'En försoningsskål', säger du med en röst du knappt känner igen. 'För att visa Marke att fusionen är... fredlig.'\n\nHan ser på kristallen, sedan på dig. Vad gör du nu?",
+    "choices": [
+      {
+        "text": "(PLIKT) Du tvekar. Du klarar inte av att mörda honom.",
+        "targetId": "gren-A-plikt"
+      },
+      {
+        "text": "(HÄMND) Du kastar dig fram för att tvinga kristallen mot hans neurala port.",
+        "targetId": "gren-B-hamnd"
+      },
+      {
+        "text": "(ÖDE) Du utmanar honom. 'Innan jag tillhör Marke, vill jag veta sanningen. Skåla med mig.'",
+        "targetId": "gren-C-ode"
+      }
+    ]
+  },
+  "1-konfrontation": {
+    "title": "Mötet: Konfrontation",
+    "text": "Du väljer konfrontation. Ett ögonblick senare glider dörren till din kupé upp. Tristan kliver in. Han är redan på sin vakt, handen vilar nära sitt sidovapen. 'Ni ville något, Ms. Morold?'\n\n'Du mördade Morold', väser du. 'Innan du levererar mig som boskap till din kung, ska du se mig i ögonen.' Du håller upp datakristallen. 'En skål. För segraren.'\n\nHan ser på kristallen, sedan på dig. Hans blick är is. Vad gör du nu?",
+    "choices": [
+      {
+        "text": "(PLIKT) Du tvekar. Ilskan falnar när du ser honom. Du klarar inte av det.",
+        "targetId": "gren-A-plikt"
+      },
+      {
+        "text": "(HÄMND) Du kastar dig fram för att tvinga kristallen mot hans neurala port.",
+        "targetId": "gren-B-hamnd"
+      },
+      {
+        "text": "(ÖDE) Du utmanar honom. 'Vågar du? En sista ärlig handling.'",
+        "targetId": "gren-C-ode"
+      }
+    ]
+  }
+}
