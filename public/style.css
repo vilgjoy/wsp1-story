@@ -1,0 +1,97 @@
+:root {
+  --bg-color: #050505;       /* Nästan svart */
+  --text-color: #00ff41;     /* Matrix/Terminal Grön */
+  --text-glow: #008f11;      /* Mörkare grön för glöd */
+  --border-color: #00ff41;
+  --hover-bg: #003b00;       /* Mörkgrön bakgrund vid hover */
+}
+
+/* --- GRUNDLÄGGANDE SETUP --- */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'VT323', 'Courier New', monospace; 
+  font-size: 1.4rem; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  
+  background-image: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px; 
+}
+
+/* --- CONTAINER (Terminal-fönstret) --- */
+.container {
+  max-width: 800px;
+  margin: 40px auto; 
+  padding: 40px;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 20px var(--text-glow); 
+  background-color: rgba(0, 20, 0, 0.8); 
+}
+
+/* --- TYPOGRAFI --- */
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px var(--text-glow); /* Skugga för att ge 3D/Glöd-effekt */
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* --- VAL & LÄNKAR (Dina knappar) --- */
+nav ul {
+  list-style: none; /* Tar bort punkter */
+  padding: 0;
+  margin-top: 40px;
+}
+
+nav li {
+  margin-bottom: 15px;
+}
+
+/* Designar alla länkar (både valen och start-knappen) */
+a, .btn {
+  display: block; /* Gör länken till en stor knapp */
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  transition: all 0.2s ease; /* Mjuk animation vid hover */
+  cursor: pointer;
+  background-color: black;
+}
+
+/* Vad händer när man håller musen över? */
+a:hover, .btn:hover {
+  background-color: var(--text-color); /* Bakgrunden blir grön */
+  color: black; /* Texten blir svart */
+  box-shadow: 0 0 15px var(--text-color); /* Den lyser upp */
+  font-weight: bold;
+}
+
+/* Lägger till en liten pil ">>" före texten i länkar */
+a::before {
+  content: ">> ";
+}
+
+a:hover::before {
+  content: ">_ "; /* Ändras till terminal-cursor vid hover */
+}
+
+/* --- STARTKNAPPEN PÅ INDEX-SIDAN --- */
+.btn {
+  text-align: center;
+  margin-top: 30px;
+  width: fit-content; /* Anpassar bredden efter texten */
+}

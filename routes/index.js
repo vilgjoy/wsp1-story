@@ -6,8 +6,8 @@ const router = express.Router()
 
 router.get("/", (req, res) => {
     res.render("index.njk", {
-        title: "Home",
-        message: "welcome to express server with nunjucks"
+        title: "Öppnar fil... Terminalen startad",
+        message: "Äventyr T & C v1.0"
     })
 })
 
