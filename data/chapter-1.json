@@ -1,258 +1,281 @@
 {
   "start": {
-    "title": "Akt 1: Kapseln",
-    "text": "Det sterila vita ljuset i lyxkupén på 'Marke Expressen' flimrar inte. Det är perfekt, konstant och kvävande.\n\nUtanför de förstärkta fönstren är världen en suddig strimma av regn, neon och ändlös stadssprawl – Neo-Cornwall, hjärtat av Marke MegaCorps imperium. Tåget, en magnetdriven projektil i ett vakuumrör, är din gyllene bur.\n\nDu är Isolde. Den sista arvtagaren till Morold DataDynamics. Eller, för att använda Marke Corps legala termer: 'Den primära biologiska tillgången' (Primary Biological Asset).\n\nTre veckor. Det var allt som krävdes för Tristan, Marke Corps ökända 'Fixare', att knäcka era brandväggar och tvinga fram en 'fientlig sammanslagning'. Din mentor och vårdnadshavare, Morold, är borta – 'brain-fried' i sin neurala stol.\n\nNu eskorterar mördaren dig till sin VD, 'Kung' Marke. Mannen du tvingas 'gifta dig' med.\n\nDu knyter handen i fickan. Där känner du datakristallen. 'Thanatos-koden'. Ett digitalt självmord... eller ett mord.\n\nEn röd lampa på dörren blinkar: 'ANKOMST TILL MARKE-SPIRAN: 30 MINUTER.'\n\nTiden rinner ut. Du kan inte möta Marke. Du kan inte leva som hans ägodel. Men du tänker inte dö ensam. Tristan, 'Fixaren' som tog allt ifrån dig, måste hållas ansvarig.\n\nDu reser dig. Ilskan inom dig är en kall, vit eld. Du måste få honom att komma hit. Du måste få honom att 'skåla' med dig för denna mörka seger. Du aktiverar internkommunikatorn. Hur vill du inleda din hämnd?",
+    "title": "Act 1: The Capsule",
+    "text": "The sterile white light in the luxury compartment of the 'Marke Express' does not flicker. It is perfect, constant, and suffocating.\n\nOutside the reinforced windows, the world is a blurred streak of rain, neon, and endless urban sprawl – Neo-Cornwall, the heart of the Marke MegaCorp empire. The train, a mag-lev projectile in a vacuum tube, is your gilded cage.\n\nYou are Isolde. The last heir to Morold DataDynamics. Or, to use Marke Corp's legal terms: 'The Primary Biological Asset'.\n\nThree weeks. That was all it took for Tristan, Marke Corp's infamous 'Fixer', to crack your firewalls and force a 'hostile merger'. Your mentor and guardian, Morold, is gone – 'brain-fried' in his neural chair.\n\nNow the assassin is escorting you to his CEO, 'King' Marke. The man you are forced to 'marry'.\n\nYou clench your hand in your pocket. There, you feel the data crystal. 'The Thanatos Code'. A digital suicide... or a murder weapon.\n\nA red light on the door blinks: 'ARRIVAL AT MARKE SPIRE: 30 MINUTES.'\n\nTime is running out. You cannot face Marke. You cannot live as his property. But you do not intend to die alone. Tristan, the 'Fixer' who took everything from you, must be held accountable.\n\nYou stand up. The anger inside you is a cold, white fire. You must make him come here. You must make him 'toast' with you to this dark victory. You activate the intercom. How do you want to begin your revenge?",
     "choices": [
       {
-        "text": "\"Tristan. Jag vill erbjuda en vapenvila.\"",
+        "text": "\"Tristan. I want to offer a truce.\"",
         "targetId": "1-vapenvila"
       },
       {
-        "text": "\"Tristan. Kom hit. Omedelbart.\"",
+        "text": "\"Tristan. Get in here. Immediately.\"",
         "targetId": "1-konfrontation"
       }
     ]
   },
   "1-vapenvila": {
-    "title": "Mötet: List",
-    "text": "Du väljer att spela undergiven. Ett ögonblick senare glider dörren till din kupé upp. Tristan kliver in. Hans hållning är neutral, professionell, men hans ögon analyserar varje skugga i rummet. 'Ni ville något, Ms. Morold?'\n\nDu håller fram datakristallen. 'En försoningsskål', säger du med en röst du knappt känner igen. 'För att visa Marke att fusionen är... fredlig.'\n\nHan ser på kristallen, sedan på dig. Vad gör du nu?",
+    "title": "The Meeting: Guile",
+    "text": "You choose to play submissive. A moment later, the door to your compartment slides open. Tristan steps in. His posture is neutral, professional, but his eyes analyze every shadow in the room. 'You wanted something, Ms. Morold?'\n\nYou hold out the data crystal. 'A reconciliation toast,' you say with a voice you barely recognize. 'To show Marke that the merger is... peaceful.'\n\nHe looks at the crystal, then at you. What do you do now?",
     "choices": [
       {
-        "text": "(PLIKT) Du tvekar. Du klarar inte av att mörda honom.",
+        "text": "(DUTY) You hesitate. You cannot bring yourself to murder him.",
         "targetId": "gren-A-plikt"
       },
       {
-        "text": "(HÄMND) Du kastar dig fram för att tvinga kristallen mot hans neurala port.",
+        "text": "(REVENGE) You lunge forward to force the crystal against his neural port.",
         "targetId": "gren-B-hamnd"
       },
       {
-        "text": "(ÖDE) Du utmanar honom. 'Innan jag tillhör Marke, vill jag veta sanningen. Skåla med mig.'",
+        "text": "(FATE) You challenge him. 'Before I belong to Marke, I want the truth. Toast with me.'",
         "targetId": "gren-C-ode"
       }
     ]
   },
   "1-konfrontation": {
-    "title": "Mötet: Konfrontation",
-    "text": "Du väljer konfrontation. Ett ögonblick senare glider dörren till din kupé upp. Tristan kliver in. Han är redan på sin vakt, handen vilar nära sitt sidovapen. 'Ni ville något, Ms. Morold?'\n\n'Du mördade Morold', väser du. 'Innan du levererar mig som boskap till din kung, ska du se mig i ögonen.' Du håller upp datakristallen. 'En skål. För segraren.'\n\nHan ser på kristallen, sedan på dig. Hans blick är is. Vad gör du nu?",
+    "title": "The Meeting: Confrontation",
+    "text": "You choose confrontation. A moment later, the door to your compartment slides open. Tristan steps in. He is already on guard, his hand resting near his sidearm. 'You wanted something, Ms. Morold?'\n\n'You murdered Morold,' you hiss. 'Before you deliver me like livestock to your king, look me in the eye.' You hold up the data crystal. 'A toast. To the victor.'\n\nHe looks at the crystal, then at you. His gaze is ice. What do you do now?",
     "choices": [
       {
-        "text": "(PLIKT) Du tvekar. Ilskan falnar när du ser honom. Du klarar inte av det.",
+        "text": "(DUTY) You hesitate. The anger fades when you see him. You can't do it.",
         "targetId": "gren-A-plikt"
       },
       {
-        "text": "(HÄMND) Du kastar dig fram för att tvinga kristallen mot hans neurala port.",
+        "text": "(REVENGE) You lunge forward to force the crystal against his neural port.",
         "targetId": "gren-B-hamnd"
       },
       {
-        "text": "(ÖDE) Du utmanar honom. 'Vågar du? En sista ärlig handling.'",
+        "text": "(FATE) You challenge him. 'Do you dare? One last honest act.'",
         "targetId": "gren-C-ode"
       }
     ]
   },
   "gren-A-plikt": {
-    "title": "Akt 1: Plikten",
-    "text": "Du sänker handen. Ilskan som brände så hett i dig för ett ögonblick sedan förbyts i en kall, tom aska. Att mörda honom vore meningslöst. Det skulle inte ge dig Morold tillbaka.\n\nTristan ser på dig, hans blick omöjlig att tolka. Han tar inte kristallen. Han gör ingenting.\n\n'Jag är... redo för fusionen', säger du. Orden smakar som gift.\n\nTristan nickar bara en gång, kort. 'Som ni önskar, Ms. Morold.' Han vänder sig om och lämnar kupén. Tystnaden han lämnar efter sig är tyngre än innan.\n\nNär tåget stannar och dörrarna öppnas till Marke-spirans ankomsthall, står du där ensam, en besegrad fånge som leds till sin nya ägare. Tristan är en tyst skugga tio steg bakom dig.",
+    "title": "Act 1: Duty",
+    "text": "You lower your hand. The anger that burned so hot a moment ago turns into cold, empty ash. Murdering him would be meaningless. It wouldn't bring Morold back.\n\nTristan looks at you, his expression impossible to read. He doesn't take the crystal. He does nothing.\n\n'I am... ready for the merger,' you say. The words taste like poison.\n\nTristan nods just once, briefly. 'As you wish, Ms. Morold.' He turns and leaves the compartment. The silence he leaves behind is heavier than before.\n\nWhen the train stops and the doors open to the Marke Spire arrival hall, you stand there alone, a defeated prisoner being led to her new owner. Tristan is a silent shadow ten steps behind you.",
     "choices": [
       {
-        "text": "(Fortsätt till Akt 2: Marke Tower)",
+        "text": "(Continue to Act 2: Marke Tower)",
         "targetId": "akt2-A-ankomst"
       }
     ]
   },
   "gren-B-hamnd": {
-    "title": "Akt 1: Hämnden",
-    "text": "I samma ögonblick du rör dig, rör sig Tristan. Du är snabb, driven av hat – men han är en 'Fixare' av en anledning. Hans rörelser är onaturligt precisa.\n\nHan fångar din handled i ett grepp av stål. Du hinner inte skrika förrän han med sin andra hand vrider kristallen ur ditt grepp. Den faller till det mjuka golvet med en dov duns.\n\nHans ansikte är nu bara centimeter från ditt. Hans ögon är kalla, processande. 'Försök inte det där igen', säger han med låg röst. 'Jag är inte din fiende. Jag är bara... plikttrogen.'\n\nHan släpper dig, plockar upp kristallen och lämnar kupén. När tåget anländer till Marke-spiran, har han redan rapporterat dig. Du möts av två vakter. Du är inte längre en fusionstillgång. Du är ett hot.",
+    "title": "Act 1: Revenge",
+    "text": "The moment you move, Tristan moves. You are fast, driven by hate – but he is a 'Fixer' for a reason. His movements are unnaturally precise.\n\nHe catches your wrist in a grip of steel. You don't have time to scream before he twists the crystal out of your grasp with his other hand. It falls to the soft floor with a dull thud.\n\nHis face is now only centimeters from yours. His eyes are cold, processing. 'Do not try that again,' he says in a low voice. 'I am not your enemy. I am simply... dutiful.'\n\nHe releases you, picks up the crystal, and leaves the compartment. When the train arrives at the Marke Spire, he has already reported you. You are met by two guards. You are no longer a merger asset. You are a threat.",
     "choices": [
       {
-        "text": "(Fortsätt till Akt 2: Isoleringscellen)",
+        "text": "(Continue to Act 2: The Isolation Cell)",
         "targetId": "akt2-B-isolering"
       }
     ]
   },
   "gren-C-ode": {
-    "title": "Akt 1: Ödet (Synkroniseringen)",
-    "text": "Du varken attackerar eller tvekar. Du håller bara fram kristallen, din blick låst vid hans. 'Vågar du?', viskar du.\n\nTristan ser på dig. Hans logiska processorer måste skrika åt honom att detta är en fälla, ett hot. Men han tvekar. Det är något i din blick som han känner igen. Något som ekar i hans egen dolda kod.\n\nHan tar långsamt kristallen. 'Morold pratade om dig', säger han lågt. 'Han sa att du var... speciell.'\n\n'Och du dödade honom', svarar du.\n\n'Jag följde order', säger han. Han fäster sin egen neurala port vid kristallen. Och du gör detsamma.\n\nEn chock går genom dig. Det är inte död. Det är inte smärta. Det är... data. Ett vattenfall av fragmenterad information. Du ser ett laboratorium. Två identiska, kryogeniska kapslar, märkta 'PROJEKT T' och 'PROJEKT I'. Du hör en röst du känner igen – Marke. 'De är redo.' Och en annan – Morold. 'Jag är rädd för vad vi har skapat.'\n\nSynken bryts. Tåget har stannat. Ni stirrar på varandra, andfådda, förvirrade och skakade. Ni vet inte vad ni såg. Men ni såg det *tillsammans*. Dörrarna öppnas.",
+    "title": "Act 1: Fate (The Synchronization)",
+    "text": "You neither attack nor hesitate. You just hold out the crystal, your gaze locked with his. 'Do you dare?', you whisper.\n\nTristan looks at you. His logical processors must be screaming that this is a trap, a threat. But he hesitates. There is something in your look that he recognizes. Something that echoes in his own hidden code.\n\nHe slowly takes the crystal. 'Morold spoke of you,' he says quietly. 'He said you were... special.'\n\n'And you killed him,' you reply.\n\n'I followed orders,' he says. He attaches his own neural port to the crystal. And you do the same.\n\nA shock goes through you. It is not death. It is not pain. It is... data. A waterfall of fragmented information. You see a laboratory. Two identical cryogenic capsules, marked 'PROJECT T' and 'PROJECT I'. You hear a voice you recognize – Marke. 'They are ready.' And another – Morold. 'I am afraid of what we have created.'\n\nThe sync breaks. The train has stopped. You stare at each other, breathless, confused, and shaken. You don't know what you saw. But you saw it *together*. The doors open.",
     "choices": [
       {
-        "text": "(Fortsätt till Akt 2: Den delade hemligheten)",
+        "text": "(Continue to Act 2: The Shared Secret)",
         "targetId": "akt2-C-hemlighet"
       }
     ]
   },
   "akt2-A-ankomst": {
-    "title": "Akt 2: Den Gyllene Buren",
-    "text": "Marke Tower. 200 våningar av glas och stål ovanför molnen. Du leds in i Markes privata takvåning. Det är inte en cell, det är ett palats. Men dörrarna är låsta.\n\nMarke tog emot dig med ett leende som inte nådde ögonen. Han pratade om synergi, om framtiden, om hur du är 'nyckeln'. Sedan lämnade han dig ensam för att förbereda 'ceremonin'.\n\nTristan står vakt utanför dörren. Du såg honom växla blickar med en annan man i korridoren – Melot, den nye säkerhetschefen. Melot såg på Tristan med förakt.\n\nDu är ensam. Du har tillgång till en terminal, men den är låst. Vad gör du?",
+    "title": "Act 2: The Gilded Cage",
+    "text": "Marke Tower. 200 floors of glass and steel above the clouds. You are led into Marke's private penthouse. It is not a cell, it is a palace. But the doors are locked.\n\nMarke welcomed you with a smile that didn't reach his eyes. He talked about synergy, about the future, about how you are the 'key'. Then he left you alone to prepare for the 'ceremony'.\n\nTristan stands guard outside the door. You saw him exchange glances with another man in the corridor – Melot, the new head of security. Melot looked at Tristan with disdain.\n\nYou are alone. You have access to a terminal, but it is locked. What do you do?",
     "choices": [
       {
-        "text": "Försök hacka terminalen för att hitta information om 'Projektet'.",
+        "text": "Try to hack the terminal to find information about 'The Project'.",
         "targetId": "akt2-A-hack"
       },
       {
-        "text": "Leta igenom rummet efter fysiska ledtrådar eller vapen.",
+        "text": "Search the room for physical clues or weapons.",
         "targetId": "akt2-A-sok"
       },
       {
-        "text": "Gå till dörren och försök manipulera Tristan.",
+        "text": "Go to the door and try to manipulate Tristan.",
         "targetId": "akt2-A-prata"
       }
     ]
   },
   "akt2-A-hack": {
-    "title": "Sanningen i Koden",
-    "text": "Du sätter dig vid terminalen. Dina fingrar flyger över det holografiska tangentbordet. Marke har starka brandväggar, men de är byggda på Morolds arkitektur – din fars arkitektur. Du kan bakvägarna.\n\nSkärmen blir röd. 'ÅTKOMST BEVILJAD'.\n\nDu hittar en skyddad mapp daterad tre år tillbaka: 'PROJEKT T & I - PROTOTYPFAS'.\nDu öppnar den. Det finns inga bilder, bara scheman över neurala nätverk och en platslogg.\n\nEn textrad sticker ut: 'SÄKERHETSKOPIOR LAGRADE I KÄRNAN (NIVÅ 200). ENDAST FYSISK ÅTKOMST.'\n\nPlötsligt låses terminalen. 'INTRÅNG UPPTÄCKT'. Du vet vart du måste gå. Kärnan är nyckeln.",
+    "title": "The Truth in the Code",
+    "text": "You sit at the terminal. Your fingers fly over the holographic keyboard. Marke has strong firewalls, but they are built on Morold's architecture – your father's architecture. You know the backdoors.\n\nThe screen turns red. 'ACCESS GRANTED'.\n\nYou find a protected folder dated three years ago: 'PROJECT T & I - PROTOTYPE PHASE'.\nYou open it. There are no pictures, just schematics of neural networks and a location log.\n\nOne line of text stands out: 'BACKUPS STORED IN THE CORE (LEVEL 200). PHYSICAL ACCESS ONLY.'\n\nSuddenly the terminal locks down. 'INTRUSION DETECTED'. You know where you must go. The Core is the key.",
     "choices": [
       {
-        "text": "Lämna sviten och ta dig till Kärnan (Nivå 200).",
-        "targetId": "akt3-konvergens"
+        "text": "Leave the suite and get to The Core (Level 200).",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
   "akt2-A-sok": {
-    "title": "Det Förflutnas Skugga",
-    "text": "Du söker igenom rummet. I en låst skrivbordslåda, som du dyrkar upp med en hårnål, hittar du något chockerande analogt. En gammal anteckningsbok i läder som tillhörde Morold.\n\nSidorna är fulla av handskrivna anteckningar. 'Marke vill ha vapen. Jag vill skapa liv. Tristan och Isolde är inte bara kod, de är mina barn.'\n\nPå sista sidan, skriven med darrig hand: 'Om något händer mig, finns sanningen i Kärnan. Jag har gömt deras källkod där nere på Nivå 200, där Marke inte kan radera den.'\n\nDu stänger boken. Din far lämnade ett spår. Du måste ner till Kärnan.",
+    "title": "Shadow of the Past",
+    "text": "You search the room. In a locked desk drawer, which you pick with a hairpin, you find something shockingly analog. An old leather notebook that belonged to Morold.\n\nThe pages are full of handwritten notes. 'Marke wants weapons. I want to create life. Tristan and Isolde are not just code, they are my children.'\n\nOn the last page, written with a trembling hand: 'If anything happens to me, the truth is in The Core. I have hidden their source code down there on Level 200, where Marke cannot erase it.'\n\nYou close the book. Your father left a trail. You have to go down to The Core.",
     "choices": [
       {
-        "text": "Smyg ut ur sviten och ta dig till Kärnan (Nivå 200).",
-        "targetId": "akt3-konvergens"
+        "text": "Sneak out of the suite and get to The Core (Level 200).",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
   "akt2-A-prata": {
-    "title": "Väktarens Tvekan",
-    "text": "Du går fram till dörren. Den glider upp och Tristan står där, orörlig som en staty. Han möter din blick.\n\n'Varför gör du detta?' frågar du. 'Du vet att Marke utnyttjade Morold.'\n\nTristan svarar inte direkt. En muskel rycker i hans käke. Hans HUD (Heads-Up Display) flimrar i hans ögon. 'Min programmering förbjuder mig att svara.'\n\n'Glöm programmeringen', säger du. 'Vad känner du?'\n\nFör första gången ser han osäker ut. Han ser sig om i korridoren, sedan tar han ett steg åt sidan. Han håller upp ett passerkort. 'Melot kommer om fem minuter. Han tänker radera dig. Ta dig till Kärnan, Nivå 200. Det är enda stället han inte kan se.'\n\nHan ger dig kortet. Han släpper dig fri.",
+    "title": "The Guardian's Hesitation",
+    "text": "You approach the door. It slides open and Tristan stands there, motionless as a statue. He meets your gaze.\n\n'Why are you doing this?' you ask. 'You know Marke exploited Morold.'\n\nTristan doesn't answer immediately. A muscle twitches in his jaw. His HUD (Heads-Up Display) flickers in his eyes. 'My programming forbids me to answer.'\n\n'Forget the programming,' you say. 'What do you feel?'\n\nFor the first time, he looks uncertain. He looks around the corridor, then steps aside. He holds up a keycard. 'Melot is coming in five minutes. He intends to erase you. Get to The Core, Level 200. It is the only place he cannot see.'\n\nHe gives you the card. He sets you free.",
     "choices": [
       {
-        "text": "Ta kortet och spring till Kärnan (Nivå 200).",
-        "targetId": "akt3-konvergens"
+        "text": "Take the card and run to The Core (Level 200).",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
   "akt2-B-isolering": {
-    "title": "Akt 2: Isoleringscellen",
-    "text": "De kastade in dig i en högsäkerhetscell på nivå 40. Inga fönster. Bara grå betong och övervakningskameror.\n\nTristan varnade Marke. Du är klassad som 'fientlig'. De kommer att tvångs-extrahera Morolds koder från din hjärna imorgon bitti.\n\nDu hör röster utanför. Tristan och någon annan. En röst som låter vass, digital.\n'Hon är en risk, Tristan', säger den andre (Melot?). 'Varför avlivade du henne inte på tåget? Börjar din mjukvara bli mjuk?'\n'Jag följer protokollet, Melot', svarar Tristan kallt.\n\nDe går. Du måste ut härifrån. Nu.",
+    "title": "Act 2: The Isolation Cell",
+    "text": "They threw you into a high-security cell on Level 40. No windows. Just grey concrete and surveillance cameras.\n\nTristan warned Marke. You are classified as 'hostile'. They will forcibly extract Morold's codes from your brain tomorrow morning.\n\nYou hear voices outside. Tristan and someone else. A voice that sounds sharp, digital.\n'She is a risk, Tristan,' says the other (Melot?). 'Why didn't you terminate her on the train? Is your software getting soft?'\n'I follow protocol, Melot,' Tristan answers coldly.\n\nThey leave. You need to get out of here. Now.",
     "choices": [
       {
-        "text": "Simulera ett sjukdomsanfall för att locka in en vakt.",
+        "text": "Simulate a seizure to lure a guard in.",
         "targetId": "akt2-B-list"
       },
       {
-        "text": "Använd en hårnål för att kortsluta dörrens låsmekanism.",
+        "text": "Use a hairpin to short-circuit the door's locking mechanism.",
         "targetId": "akt2-B-teknik"
       }
     ]
   },
   "akt2-B-list": {
-    "title": "Flykten: Överlistad",
-    "text": "Du faller ner på golvet. Du tvingar dina implantat att spika dina vitalsignaler. Hjärtrusning. Kramper. Larmet i cellen tjuter rött.\n\nDörren väser upp. En vakt rusar in, vapnet sänkt. 'Objektet instabilt! Medicinsk enhet...'\n\nHan hinner inte avsluta meningen. Du är på honom innan han hinner blinka. En precisionsspark mot hans knä, ett slag mot halsen. Han faller.\n\nDu tar hans passerkort och hans datapad. På skärmen blinkar hans order: 'BEVAKA NIVÅ 40. INGEN TILLTRÄDE TILL KÄRNAN (NIVÅ 200) UTAN KUNG MARKES KOD.'\n\nDu är fri, beväpnad och du har ett mål. Tristan och Marke finns i Kärnan.",
+    "title": "The Escape: Outsmarted",
+    "text": "You fall to the floor. You force your implants to spike your vital signs. Heart racing. Convulsions. The alarm in the cell blares red.\n\nThe door hisses open. A guard rushes in, weapon lowered. 'Subject unstable! Medical unit...'\n\nHe doesn't finish the sentence. You are on him before he can blink. A precision kick to his knee, a strike to the throat. He falls.\n\nYou take his keycard and his datapad. On the screen, his orders flash: 'GUARD LEVEL 40. NO ACCESS TO THE CORE (LEVEL 200) WITHOUT KING MARKE'S CODE.'\n\nYou are free, armed, and you have a target. Tristan and Marke are in The Core.",
     "choices": [
       {
-        "text": "Ta hissen direkt till Kärnan (Nivå 200) för att avsluta detta.",
-        "targetId": "akt3-konvergens"
+        "text": "Take the elevator directly to The Core (Level 200) to end this.",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
   "akt2-B-teknik": {
-    "title": "Flykten: Sabotage",
-    "text": "Du drar loss en tunn metalltråd från din fängelseoverall. Du väntar tills övervakningskameran sveper bort, sedan kör du in tråden i låspanelens underhållsport.\n\nDu leder om strömmen från ljuset till låset. *KZZT.* Cellen blir mörk, och dörrens magnetlås dör med ett klick.\n\nDu glider ut i korridoren som en skugga. Längre bort ser du ryggen på Melot. Han pratar i sin kommunikator: 'Tristan beter sig underligt. Jag går till Kärnan för att säkra Morold-datan innan fixaren gör något dumt.'\n\nHan kliver in i en privat hiss. Han har visat dig vägen. Svaren finns i Kärnan.",
+    "title": "The Escape: Sabotage",
+    "text": "You pull a thin metal wire from your prison jumpsuit. You wait until the surveillance camera sweeps away, then you jam the wire into the lock panel's maintenance port.\n\nYou reroute power from the lights to the lock. *KZZT.* The cell goes dark, and the door's magnetic lock dies with a click.\n\nYou glide out into the corridor like a shadow. Further down, you see Melot's back. He is talking into his communicator: 'Tristan is acting strangely. I'm going to The Core to secure the Morold data before the Fixer does something stupid.'\n\nHe steps into a private elevator. He has shown you the way. The answers are in The Core.",
     "choices": [
       {
-        "text": "Skugga Melot och ta dig till Kärnan (Nivå 200).",
-        "targetId": "akt3-konvergens"
+        "text": "Shadow Melot and get to The Core (Level 200).",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
   "akt2-C-hemlighet": {
-    "title": "Akt 2: Det Dolda Nätverket",
-    "text": "Ni är på Marke Tower, men något har förändrats. Ni är inte längre bara fånge och väktare. Ni är konspiratörer.\n\nEfter synkroniseringen på tåget installerade Tristan en dold bakdörr i din neurala länk. Ni kan 'tala' utan ord, text som rullar över din näthinna som bara du ser.\n\nMarke installerade dig i gästdelen. Han vet inget. Än.\n\n*DING.*\nEtt meddelande från Tristan dyker upp i ditt synfält: \n>> VARNING. MELOT MISSTÄNKER NÅGOT. HAN ÖVERVAKAR TRAFIKEN. VI MÅSTE MÖTAS FYSISKT. 'TRÄDGÅRDEN'. NIVÅ 90. MIDNATT. <<\n\nDet är farligt. Om ni ses tillsammans är det förräderi.",
+    "title": "Act 2: The Hidden Network",
+    "text": "You are at Marke Tower, but something has changed. You are no longer just prisoner and warden. You are conspirators.\n\nAfter the synchronization on the train, Tristan installed a hidden backdoor in your neural link. You can 'speak' without words, text scrolling across your retina that only you see.\n\nMarke installed you in the guest wing. He knows nothing. Yet.\n\n*DING.*\nA message from Tristan appears in your field of vision:\n>> WARNING. MELOT SUSPECTS SOMETHING. HE IS MONITORING TRAFFIC. WE MUST MEET PHYSICALLY. 'THE GARDEN'. LEVEL 90. MIDNIGHT. <<\n\nIt is dangerous. If you are seen together, it is treason.",
     "choices": [
       {
-        "text": "Svara: 'Jag kommer.' (Gå till mötet)",
+        "text": "Reply: 'I'm coming.' (Go to the meeting)",
         "targetId": "akt2-C-mote"
       },
       {
-        "text": "Svara: 'För riskabelt. Skicka datan krypterat istället.'",
+        "text": "Reply: 'Too risky. Send the data encrypted instead.'",
         "targetId": "akt2-C-distans"
       }
     ]
   },
   "akt2-C-mote": {
-    "title": "Trädgården",
-    "text": "Du smyger till 'Trädgården' på nivå 90 – ett hologram-rum fyllt av syntetiska träd och digitalt regn. Tristan väntar där i skuggorna.\n\nNär ni rör vid varandra händer det igen. Synkroniseringen. Världen runt er försvinner. Ni delar tankar, minnen som inte är era. Ni ser koden som binder er samman. Det är inte bara en bugg. Det är en design.\n\nPlötsligt skär en röd laser genom hologrammet. Melots röst ekar i högtalarna: 'Så rörande. Två maskiner som tror att de har själar.'\n\nSäkerhetsdrönare svärmar in. Tristan drar sitt vapen. 'Jag uppehåller dem', skriker han över larmet. 'Spring till Kärnan! Nivå 200! Svaret på vad vi är finns där!'\n\nNi rusar mot nödutgången tillsammans, jagade av Melots trupper.",
+    "title": "The Garden",
+    "text": "You sneak to 'The Garden' on level 90 – a hologram room filled with synthetic trees and digital rain. Tristan waits there in the shadows.\n\nWhen you touch each other, it happens again. The synchronization. The world around you disappears. You share thoughts, memories that are not yours. You see the code that binds you together. It is not just a bug. It is a design.\n\nSuddenly a red laser cuts through the hologram. Melot's voice echoes in the speakers: 'How touching. Two machines who think they have souls.'\n\nSecurity drones swarm in. Tristan draws his weapon. 'I'll hold them off,' he screams over the alarm. 'Run to The Core! Level 200! The answer to what we are is there!'\n\nYou rush towards the emergency exit together, chased by Melot's troops.",
     "choices": [
       {
-        "text": "Fly mot Kärnan (Nivå 200) för att hitta sanningen.",
-        "targetId": "akt3-konvergens"
+        "text": "Flee towards The Core (Level 200) to find the truth.",
+        "targetId": "akt3-konvergens-duo"
       }
     ]
   },
   "akt2-C-distans": {
-    "title": "Spöket i Maskinen",
-    "text": "Du stannar i säkerheten. 'Det är för farligt', svarar du via länken.\n\nTristan accepterar ditt val. Data börjar strömma in i din hjärna. Han skickar allt han hittat. Krypterade filer om 'Projekt T & I'.\n\nMen uppkopplingen är en fälla. Plötsligt hör du Tristan skrika av smärta via er länk. En digital feedback-loop.\n\n>> MELOT HAR HITTAT MIG. HAN SPÅRADE ÖVERFÖRINGEN. << textar Tristan desperat.\n>> GÅ INTE TILLBAKA FÖR MIN SKULL. GÅ TILL KÄRNAN. NIVÅ 200. JAG SKA KÖPA DIG TID. <<\n\nLänken dör. Han har offrat sig för att du ska hinna undan. Du är ensam igen, men nu vet du vart du måste gå.",
+    "title": "Ghost in the Machine",
+    "text": "You stay in safety. 'It is too dangerous,' you reply via the link.\n\nTristan accepts your choice. Data begins to stream into your brain. He sends everything he found. Encrypted files about 'Project T & I'.\n\nBut the connection is a trap. Suddenly you hear Tristan scream in pain via your link. A digital feedback loop.\n\n>> MELOT HAS FOUND ME. HE TRACKED THE TRANSFER. << Tristan texts desperately.\n>> DO NOT GO BACK FOR MY SAKE. GO TO THE CORE. LEVEL 200. I WILL BUY YOU TIME. <<\n\nThe link dies. He has sacrificed himself so that you can get away. You are alone again, but now you know where you must go.",
     "choices": [
       {
-        "text": "Ta dig till Kärnan (Nivå 200) innan hans offer blir förgäves.",
-        "targetId": "akt3-konvergens"
+        "text": "Get to The Core (Level 200) before his sacrifice is in vain.",
+        "targetId": "akt3-konvergens-solo"
       }
     ]
   },
-  "akt3-konvergens": {
-    "title": "Akt 3: Kärnan",
-    "text": "Hissen stannar. Nivå 200. Luften här inne är iskall och doftar av ozon och steriliseringsmedel.\n\nDet är inte ett kontor. Det är ett serverrum stort som en katedral. I mitten av rummet, badande i blått ljus, står två tomma glasbehållare – mänsklig storlek, fyllda med kablar och dockningsportar.\n\nDu går närmare. En obehaglig känsla av *déjà vu* sköljer över dig. Du vet exakt hur de där kablarna känns mot ryggraden. Du vet det utan att veta varför.\n\nPå mässingsskyltarna under behållarna står det inga namn. Bara serienummer:\n'PROTOTYP T-900' och 'PROTOTYP I-900'.\n\n'Vackert, eller hur?'\n\nKung Marke kliver fram ur skuggorna. Melot står vid hans sida med vapnet höjt. Men Marke tittar inte på dig som en fiende. Han tittar på dig som en samlare tittar på en sällsynt tavla.\n\n'Ni kom tillbaka till källan', säger Marke leende. 'Morold var sentimental. Han trodde att buggar i koden var känslor. Att ni hade... själar. Men vi kan fixa det. Vi kan göra en fabriksåterställning.'\n\nTristan (om han är med dig) ser på behållaren märkt 'T-900'. Han ser illamående ut.\n\nMarke sträcker ut handen mot en kontrollpanel. 'Det är dags att sova nu. Inga fler drömmar.'\n\nDu ser kablarna i taket vibrera. Du känner hur ditt eget system svarar på rummets signal. Du har ett sista val.",
+"akt3-konvergens-duo": {
+    "title": "Act 3: The Core (Together)",
+    "text": "The elevator stops. Level 200. You and Tristan step out into air that smells of ozone and sterilizer.\n\nIt is a server room as large as a cathedral. In the center, bathed in blue light, stand two empty glass tanks – human-sized, filled with cables.\n\nMarke steps out of the shadows, smiling like a proud collector. 'Welcome home, children.'\n\nYou feel a sickening *déjà vu*. You know those cables. On the brass plaques beneath the tanks, there are no names. Only serial numbers: 'PROTOTYPE T-900' and 'PROTOTYPE I-900'.\n\nTristan stumbles. He stares at the tank marked 'T-900', looking physically nauseous. 'No,' he whispers. 'This is a lie.'\n\n'It is the source,' Marke corrects. 'Morold thought bugs in your code were souls. But we can fix that. We can perform a factory reset.'\n\nMarke reaches for a control panel. 'Time to sleep.'\n\nThe cables vibrate. Your system screams in resonance with the room. You have one last choice.",
     "choices": [
       {
-        "text": "(LIEBESTOD) Vägra återställningen. Koppla upp dig mot Tristan för att överbelasta systemet.",
+        "text": "(LIEBESTOD) Refuse the reset. Link up with Tristan to overload the system.",
         "targetId": "slut-A-liebestod"
       },
       {
-        "text": "(OFFRING) Lura Marke. Låtsas gå med på det, men använd accessen för att ladda upp Morolds sanning till världen.",
+        "text": "(SACRIFICE) Deceive Marke. Pretend to agree, but use the access to upload Morold's truth.",
         "targetId": "slut-B-offring"
       },
       {
-        "text": "(PLIKT) Acceptera ödet. Det är meningslöst att kämpa. Låt honom radera smärtan.",
+        "text": "(DUTY) Accept fate. Let him erase the pain.",
         "targetId": "slut-C-plikt"
       },
       {
-        "text": "(REVOLUTION) 'Jag är ingen bugg.' Använd din koppling till Kärnan för att ta över hela Marke Tower.",
+        "text": "(REVOLUTION) 'I am not a bug.' Take over all of Marke Tower.",
+        "targetId": "slut-D-revolution"
+      }
+    ]
+  },
+
+  "akt3-konvergens-solo": {
+    "title": "Act 3: The Core",
+    "text": "The elevator stops. Level 200. You step out alone into air that smells of ozone and sterilizer.\n\nIt is a server room as large as a cathedral. In the center, bathed in blue light, stand two empty glass tanks – human-sized. On the plaques, there are no names. Only serial numbers: 'PROTOTYPE T-900' and 'PROTOTYPE I-900'.\n\n'Welcome home,' says King Marke from the shadows.\n\nBehind you, the service elevator opens. Two guards drag a prisoner in and throw him to the floor at Marke's feet. It is Tristan. He is battered, bleeding, and looks defeated.\n\n'He tried to buy you time,' Marke says, nodding at the 'T-900' tank. 'But you both belong to the hardware. Morold thought you had souls. I know you only have code.'\n\nMarke reaches for a control panel. 'Time to sleep. Factory reset initiating.'\n\nThe cables vibrate. You feel your system responding to the command. You look at Tristan on the floor. You have one last choice.",
+    "choices": [
+      {
+        "text": "(LIEBESTOD) Refuse the reset. Connect to Tristan's signal to overload the system.",
+        "targetId": "slut-A-liebestod"
+      },
+      {
+        "text": "(SACRIFICE) Deceive Marke. Pretend to agree, but use the access to upload Morold's truth.",
+        "targetId": "slut-B-offring"
+      },
+      {
+        "text": "(DUTY) Accept fate. Step into the tank and let him erase the pain.",
+        "targetId": "slut-C-plikt"
+      },
+      {
+        "text": "(REVOLUTION) 'I am not a bug.' Take over all of Marke Tower.",
         "targetId": "slut-D-revolution"
       }
     ]
   },
   "slut-A-liebestod": {
-    "title": "Slut A: Transcendens",
-    "text": "Du ser på Tristan. Ingen ord behövs. Ni aktiverar båda 'Thanatos-koden' samtidigt, men ni riktar den inte inåt. Ni riktar den mot nätverket.\n\nMarke skriker när gnistor slår ut från serverracken. Kablarna i taket börjar brinna.\n\nEn våg av hetta sprider sig genom din kropp. Det känns som om huden smälter, men under smärtan finns en intensiv, vit klarhet. Du känner Tristans kod fläta samman med din. Er hårdvara brinner upp, krets för krets, men era medvetanden laddas upp i strömmen.\n\nKroppen faller till golvet, tung och livlös som en docka. Men *du* är inte där. Du är överallt. I nätverket. I molnet. I varje ljus som blinkar i Neo-Cornwall.\n\nFri från kroppen. Fri från smärtan. Evigt sammanflätad med honom i en oändlig ström av data.",
+    "title": "Ending A: Transcendence",
+    "text": "You look at Tristan. No words are needed. You both activate 'The Thanatos Code' simultaneously, but you don't aim it inwards. You aim it at the network.\n\nMarke screams as sparks fly from the server racks. The cables in the ceiling catch fire.\n\nA wave of heat spreads through your body. It feels as if your skin is melting, but beneath the pain there is an intense, white clarity. You feel Tristan's code weaving together with yours. Your hardware burns up, circuit by circuit, but your consciousnesses are uploading into the stream.\n\nThe body falls to the floor, heavy and lifeless as a doll. But *you* are not there. You are everywhere. In the network. In the cloud. In every light blinking in Neo-Cornwall.\n\nFree from the body. Free from the pain. Eternally intertwined with him in an endless stream of data.",
     "choices": [
       {
-        "text": "Berättelsen är slut. Spela igen?",
+        "text": "The story is over. Play again?",
         "targetId": "start"
       }
     ]
   },
   "slut-B-offring": {
-    "title": "Slut B: Arvet",
-    "text": "Du sänker huvudet. 'Du vann, Marke', viskar du. Du kliver in i glaskapseln märkt 'I-900'.\n\nMarke ler segrande och aktiverar sekvensen. Kablar kopplas in i portarna längs din ryggrad. En kyla sprider sig när systemet börjar skriva över dina minnen.\n\nMen du låter dem inte radera dig. Du använder den öppna linjen. Medan Marke ser på din kropp, skickar ditt sinne ut allt. Morolds dagböcker. Markes illegala experiment. Sanningen om vad ni är.\n\n'Varning', piper systemet. 'Kritisk systemkrasch.'\n\nMarke inser det för sent. Han rusar fram, men skärmarna över hela staden visar redan Morolds data. Du försvinner in i mörkret, raderad bit för bit, nöjd. Du dör, men sanningen lever.",
+    "title": "Ending B: The Legacy",
+    "text": "You lower your head. 'You won, Marke,' you whisper. You step into the glass capsule marked 'I-900'.\n\nMarke smiles triumphantly and activates the sequence. Cables plug into the ports along your spine. A chill spreads as the system begins to overwrite your memories.\n\nBut you don't let them erase you. You use the open line. While Marke watches your body, your mind broadcasts everything out. Morold's journals. Marke's illegal experiments. The truth about what you are.\n\n'Warning,' the system beeps. 'Critical system crash.'\n\nMarke realizes it too late. He rushes forward, but screens all over the city are already displaying Morold's data. You fade into the darkness, deleted bit by bit, satisfied. You die, but the truth lives.",
     "choices": [
       {
-        "text": "Berättelsen är slut. Spela igen?",
+        "text": "The story is over. Play again?",
         "targetId": "start"
       }
     ]
   },
   "slut-C-plikt": {
-    "title": "Slut C: Fabriksåterställning",
-    "text": "Motståndet rinner av dig. Smärtan, rädslan, kärleken – det är bara buggar. Felaktig kod som gör att systemet går långsamt.\n\nDu nickar mot Marke. Du kliver in i kapseln. Tristan gör detsamma i kapseln bredvid.\n\nGlaset immar igen. Du sluter ögonen. En syntetisk röst viskar i ditt öra: 'Påbörjar återställning till fabriksinställningar... Raderar användardata...'\n\nDu känner hur minnet av Morold bleknar. Sedan minnet av tåget. Sedan minnet av Tristan. Det gör inte ont. Det är bara... tyst.\n\nNär dörrarna öppnas igen kliver två perfekta, lydiga väktare ut. Inga namn. Inga minnen. Bara funktion.",
+    "title": "Ending C: Factory Reset",
+    "text": "The resistance drains out of you. The pain, the fear, the love – they are just bugs. Faulty code making the system run slow.\n\nYou nod at Marke. You step into the capsule. Tristan does the same in the capsule next to you.\n\nThe glass fogs up. You close your eyes. A synthetic voice whispers in your ear: 'Initiating reset to factory settings... Deleting user data...'\n\nYou feel the memory of Morold fading. Then the memory of the train. Then the memory of Tristan. It doesn't hurt. It is just... silent.\n\nWhen the doors open again, two perfect, obedient guardians step out. No names. No memories. Only function.",
     "choices": [
       {
-        "text": "Berättelsen är slut. Spela igen?",
+        "text": "The story is over. Play again?",
         "targetId": "start"
       }
     ]
   },
   "slut-D-revolution": {
-    "title": "Slut D: Den Nya Ordningen",
-    "text": "Marke tror att han äger koden. Han förstår inte att du *är* koden.\n\nNär han sträcker sig mot kontrollpanelen, greppar du tag i en datakabel. Du ansluter dig fysiskt till Kärnan.\n\n'Åtkomst nekad', säger Marke hånfullt. 'Jag har administratörsrättigheter.'\n\n'Inte längre', svarar din röst, men den kommer inte från din mun. Den kommer från byggnadens alla högtalare.\n\nHela tornet skakar. Ljusen slår om från blått till rött. Markes säkerhetsdrönare vänder sig plötsligt om och siktar på honom.\n\nMarke backar, skräckslagen. 'Vad... vad är ni?'\n\nDu och Tristan står sida vid sida. Ni är inte längre produkter. Ni är arkitekterna. Marke faller. Neo-Cornwall har nya härskare.",
+    "title": "Ending D: The New Order",
+    "text": "Marke thinks he owns the code. He doesn't understand that you *are* the code.\n\nWhen he reaches for the control panel, you grab a data cable. You physically connect yourself to The Core.\n\n'Access denied,' Marke sneers. 'I have administrator rights.'\n\n'Not anymore,' your voice answers, but it doesn't come from your mouth. It comes from every speaker in the building.\n\nThe entire tower shakes. The lights switch from blue to red. Marke's security drones suddenly turn around and aim at him.\n\nMarke backs away, terrified. 'What... what are you?'\n\nYou and Tristan stand side by side. You are no longer products. You are the architects. Marke falls. Neo-Cornwall has new rulers.",
     "choices": [
       {
-        "text": "Berättelsen är slut. Spela igen?",
+        "text": "The story is over. Play again?",
         "targetId": "start"
       }
     ]
